@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+html {
+	zoom: 80%;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+    background-image:url(https://wallpaperaccess.com/full/6329160.png);
+    background-size: cover;
+
+}
+
+nav{
+width: auto;
+height: 75px;
+color: white;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0F52BA), color-stop(100%, #1D2951));
+background: -webkit-linear-gradient(top, #0ae4fa 0%, #d5d5d5 100%);
+border: 1px solid #0F52BA;
+text-shadow: 0 1px 0 #0880FF;
+
+}
+
+ul{
+  margin-left: 200px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+
+.logo img {
+  float:left;
+  text-transform: uppercase; 
+}
+
+l1{
+display: inline;
+font-size: 1.2rem;
+list-style: none;
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+}
+
+
+nav .nav-content:hover{
+  background: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: black;
+}
+
+.contactUs{
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.contactUs .title{
+    font-family:'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.contactUs .title h2{
+font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+.form{
+  grid-area: form;
+}
+
+.info{
+  grid-area: info;
+}
+
+.map{
+  grid-area: axiepic;
+}
+
+.contact{
+  padding:40px;
+  background: white;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+}
+
+.box{
+font-family:'Poppins', sans-serif;
+position: relative;
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 5fr 4fr;
+grid-template-areas: "form info" "form axiepic";
+grid-gap: 15px;
+}
+
+.contact h3{
+    color: #0e3959;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    
+}
+
+
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formBox .row100 .inputBox{
+    width: 100%;
+}
+
+.inputBox span{
+    color: #18b7ff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputBox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"]{
+    background: #ff578b;
+    color: #fff;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.inputBox ::placeholder{
+    color: #999;
+}
+
+.info{
+    background: #18b7ff;
+}
+
+.info h3{
+    font-family:'Poppins', sans-serif;
+    color: #fff;
+    font-size: 2em;
+}
+
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info .infoBox div span{
+    min-height: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.info .infoBox div a{ 
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.sci{
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.sci li a{
+    font-size: 3em;
+    color: #fff;
+}
+
+.sci li a:hover{
+    color: #ccc;
+}
+
+.axiepic{
+    padding: 0;
+}
+
+.axipic img{
+    width: 100%;
+    height: 100%;
+
+}

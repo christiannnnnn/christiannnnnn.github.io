@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+ margin: 0;
+ font-family:'Poppins', sans-serif;
+}
+html {
+	zoom: 80%;
+}
+body {
+    background-image:url(https://wallpaperaccess.com/full/6329160.png);
+    background-size: cover;
+    overflow: scroll;
+}
+  nav{
+  width: auto;
+height: 75px;
+color: white;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0F52BA), color-stop(100%, #1D2951));
+background: -webkit-linear-gradient(top, #0ae4fa 0%, #d5d5d5 100%);
+border: 1px solid #0F52BA;
+text-shadow: 0 1px 0 #0880FF;
+  }
+  ul{
+       margin-left: 200px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  }
+  .logo img {
+      float:left;
+      text-transform: uppercase; 
+  }
+  l1{
+display: inline;
+font-size: 1.2rem;
+list-style: none;
+}
+ nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+}
+nav .nav-content:hover{
+  background: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: black;
+}
+.ud1 {
+    background-color: #eaf4f4;
+    padding: 10px;
+}
+.ud1 h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.ud1 h2{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.ud1 p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.ud1 ul {
+    font-family: 'Signika Negative',sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.ud1 li {
+    list-style-type:circle;
+}
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.ud2 {
+    background-color: #eaf4f4;
+    padding: 10px;
+}
+.ud2 h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.ud2 h2{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.ud2 p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.ud2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.ud2 iframe {
+    display: block;
+    margin: 0 auto;
+}
+.link {
+    background-color: #0077b6;
+    padding: 10px;
+}
+.link p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+.link a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}

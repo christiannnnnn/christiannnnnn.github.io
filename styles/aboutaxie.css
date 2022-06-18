@@ -1,0 +1,165 @@
+html {
+	zoom: 80%;
+}
+*{
+margin: 0;
+}
+body {
+  background-image:url(https://wallpaperaccess.com/full/6329160.png);
+  background-size: cover;
+  overflow: scroll;
+}
+nav{
+  width: auto;
+  height: 75px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0F52BA), color-stop(100%, #1D2951));
+  background: -webkit-linear-gradient(top, #0ae4fa 0%, #d5d5d5 100%);
+  border: 1px solid #0F52BA;
+  text-shadow: 0 1px 0 #0880FF;
+}
+ul{
+    margin-left: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.logo img {
+    float:left;
+    text-transform: uppercase; 
+}
+l1{
+  display: inline;
+  font-size: 1.2rem;
+  list-style: none;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+nav .nav-content:hover{
+    background: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    color: black;
+}
+.bg{
+  background-color: white;
+  display: block;
+  padding-left: 10px;
+}
+.trailer img{
+width: 1740;
+
+}
+.title{
+  background-color: #0077b6;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+.title img {
+  float: left;
+}
+h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.text {
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.text p{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+.text img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500;
+  height: 400;
+}
+.text a{
+  color: green;
+  text-decoration: none;
+  font-style: italic;
+}
+#desc{
+  font-size: 15px;
+  text-align: center;
+}
+.menu ul {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 80px;
+  float: left;
+}
+.menu li {
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #eeba0b;
+  color: black;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover{
+  background-color: #c36f09;
+  color: white;
+}
+.menu li a{
+  text-decoration: none;
+  color: black;
+}
+.menu li a:hover{
+  background-color: #c36f09;
+  color: white;
+}
+.slp {
+  background-color: #c36f09;
+  width: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.slp h2{
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.slp p {
+  font-family: 'Signika Negative', sans-serif;
+  color: whitesmoke;
+  text-align: justify;
+  font-size: 18px;
+}
+.slp a{
+  text-decoration: none;
+  color: greenyellow;
+}
+.vid video{
+  padding-left: 150px;
+  width: 800;
+  height: 500;
+}
+[class*="col-"]{
+  width: 100;
+}
+
+@media screen and (min-width: 600px) {
+  .vid video {width: 45%;}
+  .trailer img {width: 100%;}
+}
+
